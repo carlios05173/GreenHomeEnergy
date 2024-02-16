@@ -1,0 +1,101 @@
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 15px;
+  background-color: lightgray;
+  color: navy;
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+  padding-right: 20px;
+}
+.navbar-left,
+.navbar-right ul li a {
+  text-decoration: none;
+  align-items: center;
+  font-size: large;
+}
+.container-section {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 5%;
+}
+.container-section img {
+  width: 100%;
+}
+.centered-right {
+  position: absolute;
+  top: 50%;
+  right: 70%;
+  transform: translate(-50%, -50%);
+}
+body {
+  font-family: Montserrat, sans-serif;
+}
+span{
+  padding-left: 5px;
+  font-size: 12px;
+}
+/* Bellow is code inserted from internet, learn how to do it on my own. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-fluid {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.container {
+    margin: auto;
+    margin-bottom: 5%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f6f6f6;
+    padding: 1rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container .product {
+    flex: 0 0 50%;
+    padding: 0 1rem;
+}
+
+.container .product .bg-white {
+    background-color: white;
+    box-shadow: 0px 0px 15px 5px #ddd;
+    height: 100%;
+}
+
+.container .product h1 {
+    font-size: 1rem;
+    padding: 0.5rem 1rem .1rem 0;
+    border-bottom: 2px solid brown;
+    display: inline-block;
+    margin: 0 0 .5rem .5rem;
+    text-transform: uppercase;
+}
+
+.container .product p {
+    font-size: 1rem;
+    padding: 0 1rem 0.5rem 0.5rem
+}
